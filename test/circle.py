@@ -7,6 +7,7 @@ t.speed(0.1)
 n = 100
 h = 0
 
+
 for i in range(360):
     c = colorsys.hsv_to_rgb(h, 1, 0.8)
     h += 1 / n
@@ -14,6 +15,7 @@ for i in range(360):
 
     t.left(1)
     t.fd(0)
+    turtle.hideturtle
 
     for j in range(2):
         t.left(1)
